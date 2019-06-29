@@ -1,0 +1,12 @@
+[package]
+name = "client"
+version = "0.1.0"
+authors = ["Mahmoud Hamad <mahmoud_smgl@hotmail.com>"]
+edition = "2018"
+
+[dependencies]
+#Customiz Terminal
+colored = "1.8" #So we can color our println
+#termion = "1" #Needed it bec had functionallity for clearing terminal but didn't fulfil what i wanted
+console = "0.7.7" #fulfiled what i wanted
+notifica = "1.0.2" #Show notificaiton when we receive message
